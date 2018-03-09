@@ -245,7 +245,6 @@ compress_html:
   ignore:
     envs: development
 
-
 collections:
   vegetarians:
       output: true
@@ -278,7 +277,6 @@ defaults:
       type: vegetarians
     values:
       layout: single
-      author_profile: true
       share: true
   # _meat_and_seafoods
   - scope:
@@ -294,7 +292,6 @@ defaults:
       type: sides
     values:
       layout: single
-      author_profile: true
       share: true
   # _beverages_and_desserts
   - scope:
@@ -302,5 +299,4 @@ defaults:
       type: beverages_and_desserts
     values:
       layout: single
-      author_profile: true
       share: true
