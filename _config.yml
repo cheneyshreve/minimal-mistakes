@@ -250,7 +250,15 @@ collections:
   vegetarians:
       output: true
       permalink: /:collection/:path/
-
+  meat_and_seafoods:
+      output: true
+      permalink: /:collection/:path/
+  sides:
+      output: true
+      permalink: /:collection/:path/
+  beverages_and_desserts:
+      output: true
+      permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -268,6 +276,30 @@ defaults:
   - scope:
       path: ""
       type: vegetarians
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _meat_and_seafoods
+  - scope:
+      path: ""
+      type: meat_and_seafoods
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _sides
+  - scope:
+      path: ""
+      type: sides
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _beverages_and_desserts
+  - scope:
+      path: ""
+      type: beverages_and_desserts
     values:
       layout: single
       author_profile: true

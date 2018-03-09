@@ -1,10 +1,9 @@
 ---
 layout: archive
 title: "Beverages & Dessert Recipes"
-permalink: /desserts/
-author_profile: false
+permalink: /beverages_and_desserts/
 ---
 
-{% for post in site.desserts %}
+{% for post in site.beverages_and_desserts %}
   {% include archive-single.html %}
 {% endfor %}
