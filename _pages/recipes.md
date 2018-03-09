@@ -4,7 +4,6 @@ permalink: /recipes/
 header:
   overlay_image: /assets/images/mojito.jpg
   overlay_filter: 0.5
-  caption: "Photo credit: David Meier"
 feature_row:
  - image_path: /assets/images/meat_mains.jpg
    alt: "Meat & Seafood Mains"

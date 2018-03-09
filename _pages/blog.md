@@ -4,11 +4,10 @@ permalink: /blog/
 header:
   overlay_image: /assets/images/travel_cover.jpg
   overlay_filter: 0.5
-  caption: "Photo credit: Tarka Wilcox"
 feature_row:
   - image_path: assets/images/biking01.jpg
-    alt: "Biking with friends in Colorado"
-    title: "Biking with friends in Colorado"
+    alt: "Mountain Biking in Colorado"
+    title: "Mountain Biking in Colorado"
     url: "/Sample-Post-01/"
 feature_row2:
   - image_path: assets/images/mushrooms02.jpg
