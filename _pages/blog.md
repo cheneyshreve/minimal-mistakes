@@ -2,7 +2,10 @@
 layout: archive
 permalink: /blog/
 header:
-  image: /assets/images/travel_cover.jpg
+  overlay_image: /assets/images/travel_cover.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: Tarka Wilcox"
+  excerpt: "A food and travel blog for the sustainably minded."
 feature_row:
   - image_path: assets/images/biking01.jpg
     alt: "biking in Colorado"

@@ -4,7 +4,7 @@ permalink: /recipes/
 header:
   overlay_image: /assets/images/mojito.jpg
   overlay_filter: 0.5
-  caption: "Photo credit: David Meier, pictography"
+  caption: "Photo credit: David Meier"
   excerpt: "A food and travel blog for the sustainably minded."
 feature_row:
  - image_path: /assets/images/meat_mains.jpg
@@ -36,7 +36,6 @@ feature_row:
 
 
 {% include feature_row id="feature_row" type="left" %}
-
 
 {% include feature_row id="feature_row2" type="right" %}
 

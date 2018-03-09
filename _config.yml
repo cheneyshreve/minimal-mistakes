@@ -14,10 +14,10 @@ title_separator          : "-"
 name                     : "Tarka Wilcox & Cheney Shreve"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  #"/minimal-mistakes"
+baseurl                  :  "/minimal-mistakes"
 repository               :  "cheneyshreve/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : # true , false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -92,7 +92,7 @@ analytics:
 author:
   name             : "Tarka Wilcox"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Foodie, professor, photographer & biking enthusiast."
+  bio              : "Foodie, professor, photographer & mountain biker."
   location         : "Seattle, WA"
   email            :
   uri              :
@@ -246,6 +246,12 @@ compress_html:
     envs: development
 
 
+collections:
+  vegetarians:
+      output: true
+      permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -256,6 +262,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
+  # _vegetarians
+  - scope:
+      path: ""
+      type: vegetarians
+    values:
+      layout: single
+      author_profile: true
+      share: true
