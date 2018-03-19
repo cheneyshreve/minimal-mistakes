@@ -13,9 +13,9 @@ title                    : "Tasteful Things | A Food & Travel Blog"
 title_separator          : "-"
 name                     : "Tarka Wilcox & Cheney Shreve"
 description              : "A food & travel blog."
-url                      : "http://www.geo-chef.com"
-baseurl                  :  "/minimal-mistakes"
-repository               :  "cheneyshreve/minimal-mistakes"
+url                      : #"http://www.geo-chef.com"
+baseurl                  : # "/minimal-mistakes"
+repository               : # "cheneyshreve/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : # true , false (default)
 words_per_minute         : 200
@@ -301,4 +301,4 @@ defaults:
       layout: single
       share: true
 
-remote_theme: mmistakes/minimal-mistakes@gh-pages
+remote_theme: mmistakes/minimal-mistakes
