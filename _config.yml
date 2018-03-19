@@ -300,3 +300,5 @@ defaults:
     values:
       layout: single
       share: true
+
+theme: jekyll-theme-cayman
