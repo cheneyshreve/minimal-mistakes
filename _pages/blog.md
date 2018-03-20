@@ -10,9 +10,9 @@ feature_row:
     title: "Mountain Biking in Colorado"
     url: "/Sample-Post-01/"
 feature_row2:
-  - image_path: assets/images/mushrooms02.jpg
-    alt: "Morels at work"
-    title: "Morels at work"
+  - image_path: assets/images/spain-logo-large.png
+    alt: "Check out our new Alexa skill"
+    title: "Check out our new skill on Amazon"
     url: "/Sample-Post-02/"
 feature_row3:
   - image_path: assets/images/landscape01.jpg
